@@ -1,0 +1,4 @@
+﻿  Bucle_While.c
+D:\BorjaBolado\Programacion\Prueba_plantilla\Prueba_plantilla\Bucle_While.c(78,10): warning C4013: 'getche' sin definir; se supone que extern devuelve como resultado int
+D:\BorjaBolado\Programacion\Prueba_plantilla\Prueba_plantilla\Bucle_While.c(53,7): warning C4047: 'inicializando': 'char' es distinto en los niveles de direccionamiento indirecto de 'char [2]'
+  Repaso_1_real.vcxproj -> D:\BorjaBolado\Programacion\Repaso_1_real\Repaso_1_real\x64\Debug\Repaso_1_real.exe

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\borjabolado\\source\\repos\\EJ_fechas.c\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8A1ED3-E8FB-4D8E-8712-E3C961E0B33D}|EJ_fechas.c\\EJ_fechas.c.vcxproj|C:\\Users\\borjabolado\\source\\repos\\EJ_fechas.c\\EJ_fechas.c\\Fecha.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB8A1ED3-E8FB-4D8E-8712-E3C961E0B33D}|EJ_fechas.c\\EJ_fechas.c.vcxproj|solutionrelative:EJ_fechas.c\\Fecha.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fecha.c",
+              "DocumentMoniker": "C:\\Users\\borjabolado\\source\\repos\\EJ_fechas.c\\EJ_fechas.c\\Fecha.c",
+              "RelativeDocumentMoniker": "EJ_fechas.c\\Fecha.c",
+              "ToolTip": "C:\\Users\\borjabolado\\source\\repos\\EJ_fechas.c\\EJ_fechas.c\\Fecha.c",
+              "RelativeToolTip": "EJ_fechas.c\\Fecha.c",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAcwH0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-30T10:46:34.987Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

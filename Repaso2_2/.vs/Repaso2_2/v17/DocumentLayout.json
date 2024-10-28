@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\borjabolado\\source\\repos\\Repaso2_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E2B3F1-B646-497E-AB74-20B9694C26A0}|Repaso2_2\\Repaso2_2.vcxproj|C:\\Users\\borjabolado\\source\\repos\\Repaso2_2\\Repaso2_2\\Plantilla.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E4E2B3F1-B646-497E-AB74-20B9694C26A0}|Repaso2_2\\Repaso2_2.vcxproj|solutionrelative:Repaso2_2\\Plantilla.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Plantilla.c",
+              "DocumentMoniker": "C:\\Users\\borjabolado\\source\\repos\\Repaso2_2\\Repaso2_2\\Plantilla.c",
+              "RelativeDocumentMoniker": "Repaso2_2\\Plantilla.c",
+              "ToolTip": "C:\\Users\\borjabolado\\source\\repos\\Repaso2_2\\Repaso2_2\\Plantilla.c",
+              "RelativeToolTip": "Repaso2_2\\Plantilla.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-07T11:03:28.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
