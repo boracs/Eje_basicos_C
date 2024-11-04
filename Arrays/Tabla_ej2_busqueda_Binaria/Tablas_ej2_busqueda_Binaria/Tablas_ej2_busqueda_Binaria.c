@@ -70,13 +70,14 @@ main() {
 
 		while (pinf <= psup && arr[pmed] != numbuscado) {
 			if (numbuscado < arr[pmed]) {
-				psup = pmed;
-				pmed = pmed / 2;
+				psup = pmed-1;
+				
 			}
 			if (numbuscado > arr[pmed]) {
-				pinf = pmed;
-				pmed = pinf + (psup - pinf) / 2;
+				pinf = pmed+1;
+				
 			}
+			pmed = (psup + pinf) / 2;
 		}
 
 
