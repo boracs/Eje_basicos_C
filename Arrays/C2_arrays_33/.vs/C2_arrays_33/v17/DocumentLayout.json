@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\BorjaBolado\\Programacion C ej_basicos\\Arrays\\C2_arrays_33\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C043C924-48E4-4A41-A668-814890115D34}|C2_arrays_33\\C2_arrays_33.vcxproj|D:\\BorjaBolado\\Programacion C ej_basicos\\Arrays\\C2_arrays_33\\C2_arrays_33\\C2_arrays_33.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C043C924-48E4-4A41-A668-814890115D34}|C2_arrays_33\\C2_arrays_33.vcxproj|solutionrelative:C2_arrays_33\\C2_arrays_33.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "C2_arrays_33.c",
+              "DocumentMoniker": "D:\\BorjaBolado\\Programacion C ej_basicos\\Arrays\\C2_arrays_33\\C2_arrays_33\\C2_arrays_33.c",
+              "RelativeDocumentMoniker": "C2_arrays_33\\C2_arrays_33.c",
+              "ToolTip": "D:\\BorjaBolado\\Programacion C ej_basicos\\Arrays\\C2_arrays_33\\C2_arrays_33\\C2_arrays_33.c",
+              "RelativeToolTip": "C2_arrays_33\\C2_arrays_33.c",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-31T11:45:33.54Z",
+              "EditorCaption": ""
             }
           ]
         }

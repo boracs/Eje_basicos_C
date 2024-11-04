@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Porgrama_principal_c.c">
+    <ClCompile Include="C2_arrays_33.c">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
