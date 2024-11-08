@@ -1,0 +1,12 @@
+
+tengo 
+6 3 2 1 4 5
+quiero
+1 2 3 4 5 6 
+
+Para comenzar ha varias maneras de hacerlo. 
+Puedo ordenar ascendente descendente e independientemente de eso puedo hacer,
+almacenar el valor minimo al recorrer todo el array y lo meto en la 1º posicion, despues hago lo mismo con la isguiente posicion y los valores que uqedan. 
+Esto mismo lo puedo hacer con el valor mas grande y meterlo en la ultima posicion tambien,  envez de el mas pequeño.
+
+
