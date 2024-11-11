@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ordenacion_burbuja.c">
+    <ClCompile Include="Ordenacion_por_seleccion.c">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

@@ -24,6 +24,7 @@
     <ProjectGuid>{36722c10-f025-4980-b85a-a2be1d5251da}</ProjectGuid>
     <RootNamespace>Ordenacionburbuja</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Ordenacion_por_seleccion</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ordenacion_burbuja.c">
+    <ClCompile Include="Ordenacion_por_seleccion.c">
       <SubType>
       </SubType>
     </ClCompile>
