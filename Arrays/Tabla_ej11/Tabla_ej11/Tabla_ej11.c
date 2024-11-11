@@ -60,15 +60,16 @@ siguientes a ella y el total es la suma de la columna suma siguientes
 			for (int i = 0; i < POS; i++) {
 			sumaTotal = sumaTotal + arr[i];
 			}
-			int sumaTotalfinal = sumaTotal;
+			int sumaTotalfinal = 0;
 
 			//imprimo
 
 			printf("%20s %20s \n","POSICION","SUMA SIGUIENTES");
 			for (int i = 0; i < POS; i++) {
-
+				sumaTotalfinal = sumaTotalfinal + sumaTotal;
 				printf("%20d esta el %20d \n", i, sumaTotal);
 				sumaTotal = sumaTotal - arr[i];
+			
 			}
 			printf("%20s es %20d \n", "Totla suma", sumaTotalfinal);
 
