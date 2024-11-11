@@ -28,7 +28,7 @@ siguientes a ella y el total es la suma de la columna suma siguientes
 	// CARGO EL ARRAY
 	int arr[POS];
 	for (int i = 0; i < POS; i++) {
-		printf("Dame el valor: %dº;", i);
+		printf("Dame el valor: %dº;\n", i);
 		int num;
 		scanf_s("%d", &arr[i]);
 	}
@@ -53,10 +53,24 @@ siguientes a ella y el total es la suma de la columna suma siguientes
 
 
 	// IMPRIMO
-	printf("%20s %20s","POSICION\n","SUMA SIGUIENTES");
-	for (int i = 0; i < POS; i++) {
-		printf("%20d esta el %20d \n", i, arr[i]);
-	}
+	// 
+			//para imprimir antes calculo el total de la suma de los valores para pdoer despue imprimirla como pide
+
+			int sumaTotal = 0;
+			for (int i = 0; i < POS; i++) {
+			sumaTotal = sumaTotal + arr[i];
+			}
+			int sumaTotalfinal = sumaTotal;
+
+			//imprimo
+
+			printf("%20s %20s \n","POSICION","SUMA SIGUIENTES");
+			for (int i = 0; i < POS; i++) {
+
+				printf("%20d esta el %20d \n", i, sumaTotal);
+				sumaTotal = sumaTotal - arr[i];
+			}
+			printf("%20s es %20d \n", "Totla suma", sumaTotalfinal);
 
 
 
