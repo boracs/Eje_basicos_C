@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays\\Tablas2_ej7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B63FB922-8BF8-44E8-9A3B-FCF151F19802}|Tablas2_ej7\\Tablas2_ej7.vcxproj|D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays\\Tablas2_ej7\\Tablas2_ej7\\Tablas2_ej7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B63FB922-8BF8-44E8-9A3B-FCF151F19802}|Tablas2_ej7\\Tablas2_ej7.vcxproj|solutionrelative:Tablas2_ej7\\Tablas2_ej7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tablas2_ej7.c",
+              "DocumentMoniker": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays\\Tablas2_ej7\\Tablas2_ej7\\Tablas2_ej7.c",
+              "RelativeDocumentMoniker": "Tablas2_ej7\\Tablas2_ej7.c",
+              "ToolTip": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays\\Tablas2_ej7\\Tablas2_ej7\\Tablas2_ej7.c",
+              "RelativeToolTip": "Tablas2_ej7\\Tablas2_ej7.c",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-18T10:22:14.786Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
