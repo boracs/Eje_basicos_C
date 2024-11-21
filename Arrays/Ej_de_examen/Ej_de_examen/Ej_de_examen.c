@@ -43,8 +43,40 @@ main() {
 		tabla[posMin] = aux; 
 	}
 
+	//creoun segundo array
+	int arr[POS2] = { 4,7,3,2,9 };
+	int encontrados = 0;
+	int noEncontrados = 0;
 
-	
+	for (int i = 0; i < POS2; i++) {
+
+		int inf = 0;
+		int sup = POS2-1;
+		int med =(inf + sup)/2;
+
+		while (inf < sup && arr[med] != arr[i]) {
+			if (arr[i] > arr[med]) {
+				inf = med+1;
+			}else if (arr[i] < arr[med]) {
+				sup = med-1;
+			}
+			med = (sup + inf) / 2;
+		}
+
+
+		if (arr[med] == arr[i]) {
+			encontrados++;
+			printf("Se encontro el %d\n", arr[i]);
+		}
+		else {
+			noEncontrados++;
+			printf("Nos se encontro el %d\n", arr[i]);
+		}
+	}
+
+
+	printf("Hay %d numeros en el segundo aray que tambien se encuentran en el primero\n", encontrados);
+	printf("Hay %d numeros en el segundo aray que no se encuentran en el primero\n", noEncontrados);
 
 
 
