@@ -91,6 +91,6 @@ main() {
 
 	}
 
-	printf("Existen %d numeros de los 3 introducidoa en el array de 6 numeros", existe);
+	printf("Existen %d numeros de los 3 introducidoa en el array de 6 numeros\n", existe);
 	printf("Los numeors no existemtes son:  %d", noEncontrados);
 }

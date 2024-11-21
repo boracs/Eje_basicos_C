@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\BorjaBolado\\Programacion C ej_basicos\\Arrays\\Tabla_ej2_busqueda_Binaria\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\Eje_basicos_C\\Arrays\\Tabla_ej2_busqueda_Binaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79BAF9A5-1C2F-427E-96B1-A020FB9439E1}|Tablas_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria.vcxproj|D:\\BorjaBolado\\Programacion C ej_basicos\\Arrays\\Tabla_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{79BAF9A5-1C2F-427E-96B1-A020FB9439E1}|Tablas_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria.vcxproj|C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\Eje_basicos_C\\Arrays\\Tabla_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{79BAF9A5-1C2F-427E-96B1-A020FB9439E1}|Tablas_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria.vcxproj|solutionrelative:Tablas_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Tablas_ej2_busqueda_Binaria.c",
-              "DocumentMoniker": "D:\\BorjaBolado\\Programacion C ej_basicos\\Arrays\\Tabla_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria.c",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\Eje_basicos_C\\Arrays\\Tabla_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria.c",
               "RelativeDocumentMoniker": "Tablas_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria.c",
-              "ToolTip": "D:\\BorjaBolado\\Programacion C ej_basicos\\Arrays\\Tabla_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria.c",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\Eje_basicos_C\\Arrays\\Tabla_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria.c",
               "RelativeToolTip": "Tablas_ej2_busqueda_Binaria\\Tablas_ej2_busqueda_Binaria.c",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEEAAAABAAAA",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwF0AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-04T08:15:07.964Z",
               "EditorCaption": ""

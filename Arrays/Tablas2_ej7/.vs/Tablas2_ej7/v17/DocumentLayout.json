@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays\\Tablas2_ej7\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\Eje_basicos_C\\Arrays\\Tablas2_ej7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B63FB922-8BF8-44E8-9A3B-FCF151F19802}|Tablas2_ej7\\Tablas2_ej7.vcxproj|D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays\\Tablas2_ej7\\Tablas2_ej7\\Tablas2_ej7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B63FB922-8BF8-44E8-9A3B-FCF151F19802}|Tablas2_ej7\\Tablas2_ej7.vcxproj|C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\Eje_basicos_C\\Arrays\\Tablas2_ej7\\Tablas2_ej7\\Tablas2_ej7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B63FB922-8BF8-44E8-9A3B-FCF151F19802}|Tablas2_ej7\\Tablas2_ej7.vcxproj|solutionrelative:Tablas2_ej7\\Tablas2_ej7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Tablas2_ej7.c",
-              "DocumentMoniker": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays\\Tablas2_ej7\\Tablas2_ej7\\Tablas2_ej7.c",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\Eje_basicos_C\\Arrays\\Tablas2_ej7\\Tablas2_ej7\\Tablas2_ej7.c",
               "RelativeDocumentMoniker": "Tablas2_ej7\\Tablas2_ej7.c",
-              "ToolTip": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays\\Tablas2_ej7\\Tablas2_ej7\\Tablas2_ej7.c",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\Eje_basicos_C\\Arrays\\Tablas2_ej7\\Tablas2_ej7\\Tablas2_ej7.c",
               "RelativeToolTip": "Tablas2_ej7\\Tablas2_ej7.c",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAC4AAAAqAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-18T10:22:14.786Z",
               "EditorCaption": ""

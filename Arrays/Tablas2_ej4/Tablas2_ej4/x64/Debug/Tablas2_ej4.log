@@ -1,2 +1,3 @@
 ﻿  Tablas2_ej4.c
-LINK : fatal error LNK1168: no se puede abrir D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays\Tablas2_ej4\x64\Debug\Tablas2_ej4.exe para escritura
+C:\Users\ASUS\Desktop\PROGRAMACION C++\Eje_basicos_C\Arrays\Tablas2_ej4\Tablas2_ej4\Tablas2_ej4.c(88,11): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+  Tablas2_ej4.vcxproj -> C:\Users\ASUS\Desktop\PROGRAMACION C++\Eje_basicos_C\Arrays\Tablas2_ej4\x64\Debug\Tablas2_ej4.exe

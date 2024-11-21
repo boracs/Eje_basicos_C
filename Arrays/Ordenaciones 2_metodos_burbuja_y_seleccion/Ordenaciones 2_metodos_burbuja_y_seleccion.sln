@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ordenaciones 2_metodos_burbuja_y_seleccion", "Ordenaciones 2_metodos_burbuja_y_seleccion\Ordenaciones 2_metodos_burbuja_y_seleccion.vcxproj", "{2A99ACA1-4C90-4962-B081-46CB2C86EDBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A99ACA1-4C90-4962-B081-46CB2C86EDBC}.Debug|x64.ActiveCfg = Debug|x64
+		{2A99ACA1-4C90-4962-B081-46CB2C86EDBC}.Debug|x64.Build.0 = Debug|x64
+		{2A99ACA1-4C90-4962-B081-46CB2C86EDBC}.Debug|x86.ActiveCfg = Debug|Win32
+		{2A99ACA1-4C90-4962-B081-46CB2C86EDBC}.Debug|x86.Build.0 = Debug|Win32
+		{2A99ACA1-4C90-4962-B081-46CB2C86EDBC}.Release|x64.ActiveCfg = Release|x64
+		{2A99ACA1-4C90-4962-B081-46CB2C86EDBC}.Release|x64.Build.0 = Release|x64
+		{2A99ACA1-4C90-4962-B081-46CB2C86EDBC}.Release|x86.ActiveCfg = Release|Win32
+		{2A99ACA1-4C90-4962-B081-46CB2C86EDBC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AC3267E-399C-41F2-8423-191AE0AC4E74}
+	EndGlobalSection
+EndGlobal

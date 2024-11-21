@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\Eje_basicos_C\\Arrays\\Ej_de_examen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C66DE751-7982-4EBD-86E8-3267393122BE}|Ej_de_examen\\Ej_de_examen.vcxproj|C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\Eje_basicos_C\\Arrays\\Ej_de_examen\\Ej_de_examen\\Ej_de_examen.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C66DE751-7982-4EBD-86E8-3267393122BE}|Ej_de_examen\\Ej_de_examen.vcxproj|solutionrelative:Ej_de_examen\\Ej_de_examen.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ej_de_examen.c",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\Eje_basicos_C\\Arrays\\Ej_de_examen\\Ej_de_examen\\Ej_de_examen.c",
+              "RelativeDocumentMoniker": "Ej_de_examen\\Ej_de_examen.c",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\Eje_basicos_C\\Arrays\\Ej_de_examen\\Ej_de_examen\\Ej_de_examen.c",
+              "RelativeToolTip": "Ej_de_examen\\Ej_de_examen.c",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-20T18:29:53.598Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
