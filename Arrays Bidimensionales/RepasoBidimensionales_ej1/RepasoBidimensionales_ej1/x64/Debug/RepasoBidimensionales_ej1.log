@@ -1,0 +1,3 @@
+﻿  RepasoBidimensionales_ej1.c
+C:\Users\borjabolado\source\repos\RepasoBidimensionales_ej1\RepasoBidimensionales_ej1\RepasoBidimensionales_ej1.c(33,16): warning C4474: "scanf_s": se pasaron demasiados argumentos para la cadena de formato
+C:\Users\borjabolado\source\repos\RepasoBidimensionales_ej1\RepasoBidimensionales_ej1\RepasoBidimensionales_ej1.c(33,1): error C4700: se utilizó la variable local 'opcion' sin inicializar

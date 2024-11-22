@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays Bidimensionales\\Ej_39\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0FB35BE-0DA8-4F2D-A6BE-7DA4D6FAA811}|Ej_39\\Ej_39.vcxproj|D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays Bidimensionales\\Ej_39\\Ej_39\\Ej_39.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C0FB35BE-0DA8-4F2D-A6BE-7DA4D6FAA811}|Ej_39\\Ej_39.vcxproj|solutionrelative:Ej_39\\Ej_39.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ej_39.c",
+              "DocumentMoniker": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays Bidimensionales\\Ej_39\\Ej_39\\Ej_39.c",
+              "RelativeDocumentMoniker": "Ej_39\\Ej_39.c",
+              "ToolTip": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays Bidimensionales\\Ej_39\\Ej_39\\Ej_39.c",
+              "RelativeToolTip": "Ej_39\\Ej_39.c",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-22T09:04:01.706Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
