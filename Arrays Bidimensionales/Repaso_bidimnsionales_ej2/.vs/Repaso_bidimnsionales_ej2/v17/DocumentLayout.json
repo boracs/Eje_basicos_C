@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays Bidimensionales\\Repaso_bidimnsionales_ej2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{037C2B10-DE4A-409D-A4F5-C0DDD7DAB488}|Repaso_bidimnsionales_ej2\\Repaso_bidimnsionales_ej2.vcxproj|D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays Bidimensionales\\Repaso_bidimnsionales_ej2\\Repaso_bidimnsionales_ej2\\Repaso_bidimnsionales_ej2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{037C2B10-DE4A-409D-A4F5-C0DDD7DAB488}|Repaso_bidimnsionales_ej2\\Repaso_bidimnsionales_ej2.vcxproj|solutionrelative:Repaso_bidimnsionales_ej2\\Repaso_bidimnsionales_ej2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repaso_bidimnsionales_ej2.c",
+              "DocumentMoniker": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays Bidimensionales\\Repaso_bidimnsionales_ej2\\Repaso_bidimnsionales_ej2\\Repaso_bidimnsionales_ej2.c",
+              "RelativeDocumentMoniker": "Repaso_bidimnsionales_ej2\\Repaso_bidimnsionales_ej2.c",
+              "ToolTip": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Arrays Bidimensionales\\Repaso_bidimnsionales_ej2\\Repaso_bidimnsionales_ej2\\Repaso_bidimnsionales_ej2.c",
+              "RelativeToolTip": "Repaso_bidimnsionales_ej2\\Repaso_bidimnsionales_ej2.c",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAAFAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-25T07:07:00.071Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
