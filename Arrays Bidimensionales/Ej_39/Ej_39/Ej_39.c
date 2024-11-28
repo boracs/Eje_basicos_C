@@ -79,15 +79,34 @@ main() {
 
 	//imprimo informe
 	for (int i = 0; i < Vend; i++) {
+		printf("%20s", "----------------------\n");
+		printf("\n");
 		printf("%20s:%d \n", "Nº vendedor:", i + 1);
 		printf("%20s %20s", "Nº articulo", "Unidades Vendidas\n");
-		printf("%20s", "----------------------\n");
 
 		for (int j = 0; j < Art; j++) {
-			printf("%20d, % 20d\n", j+1, ventas[i][j]);
+			printf("%20d % 20d\n", j+1, ventas[i][j]);
 		}
 
 	}
+
+	printf("\n");
+	printf("\n");
+	printf("\n");
+	// tabla mas profesional :
+	printf("%10s %40s\n", "VENDEDOR","ARTICULOS");
+	printf("\n");
+	for (int i = 0; i < Vend; i++) {
+		printf("%10s:%d", "VENDEDOR", i + 1);
+		int totalArt = 0;
+		for (int j = 0; j < Art; j++) {
+			printf("%5d", ventas[i][j]);
+			totalArt = totalArt + ventas[i][j];
+		}
+		printf("%20s %5d", "TOTAL ARTICULOS:", totalArt);
+		printf("\n");
+	}
+
 
 
 
