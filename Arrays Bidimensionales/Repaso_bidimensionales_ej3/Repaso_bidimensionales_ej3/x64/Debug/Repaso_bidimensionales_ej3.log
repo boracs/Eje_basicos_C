@@ -1,0 +1,8 @@
+﻿  Repaso_bidimensionales_ej3.c
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Bidimensionales\Repaso_bidimensionales_ej3\Repaso_bidimensionales_ej3\Repaso_bidimensionales_ej3.c(54,24): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Bidimensionales\Repaso_bidimensionales_ej3\Repaso_bidimensionales_ej3\Repaso_bidimensionales_ej3.c(93,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Bidimensionales\Repaso_bidimensionales_ej3\Repaso_bidimensionales_ej3\Repaso_bidimensionales_ej3.c(94,38): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Bidimensionales\Repaso_bidimensionales_ej3\Repaso_bidimensionales_ej3\Repaso_bidimensionales_ej3.c(108,39): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Bidimensionales\Repaso_bidimensionales_ej3\Repaso_bidimensionales_ej3\Repaso_bidimensionales_ej3.c(74,1): warning C4716: 'realizarReserva': debe devolver un valor
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Bidimensionales\Repaso_bidimensionales_ej3\Repaso_bidimensionales_ej3\Repaso_bidimensionales_ej3.c(116,1): warning C4716: 'realizarCancelacion': debe devolver un valor
+  Repaso_bidimensionales_ej3.vcxproj -> D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Bidimensionales\Repaso_bidimensionales_ej3\x64\Debug\Repaso_bidimensionales_ej3.exe
