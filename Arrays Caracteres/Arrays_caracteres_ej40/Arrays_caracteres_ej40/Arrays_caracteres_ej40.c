@@ -1,14 +1,12 @@
 
-
-
-
-
 #include<stdio.h>
 #include<Windows.h>
 #define TAM 200
 
-
 main() {
+
+	/*40)Escribir un programa que pida una frase, y visualice el nº de caracteres(letras) y el nº de
+vocales que tiene.*/
 
 	SetConsoleCP(1252);
 	SetConsoleOutputCP(1252);
@@ -19,7 +17,12 @@ main() {
 
 	printf("FRASE:");
 	gets(frase);
-	char frase = tolower(frase);
+	for (int i = 0; frase[i] != '\0'; i++) {
+		frase[i] = tolower(frase[i]);
+	}
+
+
+
 
 	for (int i = 0; frase[i]!= '\0'; i++) {
 		if (frase[i] >= 'a' && frase[i <= 'z']) {
