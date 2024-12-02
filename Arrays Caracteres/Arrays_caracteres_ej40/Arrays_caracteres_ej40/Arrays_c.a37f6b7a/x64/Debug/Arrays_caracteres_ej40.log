@@ -1,0 +1,5 @@
+﻿  Arrays_caracteres_ej40.c
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Caracteres\Arrays_caracteres_ej40\Arrays_caracteres_ej40\Arrays_caracteres_ej40.c(21,2): warning C4013: 'gets' sin definir; se supone que extern devuelve como resultado int
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Caracteres\Arrays_caracteres_ej40\Arrays_caracteres_ej40\Arrays_caracteres_ej40.c(22,7): error C2040: 'frase: 'char' se diferencia en los niveles de direccionamiento indirecto de 'char [200]'
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Caracteres\Arrays_caracteres_ej40\Arrays_caracteres_ej40\Arrays_caracteres_ej40.c(22,23): warning C4047: 'función': 'int' es distinto en los niveles de direccionamiento indirecto de 'char [200]'
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Caracteres\Arrays_caracteres_ej40\Arrays_caracteres_ej40\Arrays_caracteres_ej40.c(22,23): warning C4024: 'tolower': tipos distintos para el parámetro formal y el parámetro real 1

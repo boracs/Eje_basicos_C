@@ -1,12 +1,16 @@
 
-
-
-
-
 #include<stdio.h>
 #include<Windows.h>
 #define FIL 10
 #define BUT 15
+
+
+
+
+
+//IMPOTANTE  ------------------------------------------queda pulir las devoluciones ---------------------------------
+
+
 
 
 //FUNCIONES--------------------------------------------
@@ -48,24 +52,27 @@ int realizarReserva(int arr[FIL][BUT]) {
 
 		int fila = pedir_fila();
 		int butaca = pedir_butaca();
+		printf("Me has predidla FILA:%d y la BUTACA:%d\n", fila, butaca);
 
 		if (arr[fila][butaca] == 0) {
-					printf("Reserva realizada EXITOSAMENTE");
-					arr[fila][butaca] == 1;
+					printf("PRIMERA COND, Reserva realizada EXITOSAMENTE\n");
+					arr[fila][butaca] = 1;
 					procesoReservaFinaslizado = 1;
 					}
 		else {
-			printf("IMPOSIBLE REALZIAR RESERVA, la butaca ya esta adjudicada");
+			printf("SEGUNDA COND, IMPOSIBLE REALZIAR RESERVA, la butaca ya esta adjudicada\n");
 			int respuestaCorrecta = 0;
 			char repetir = ' ';
 			do {
-				printf("Desea volver a intentar realizar la reserva 'S' o'N' ?");
+				printf("Desea volver a intentar realizar la reserva 'S' o'N' ?\n");
 				scanf_s("%c", &repetir, 1);
 				if (repetir == 'S' || repetir == 'N' || repetir == 's' || repetir == 'n') {
+					printf("BIEN RESPONDIDAO\n");
 					respuestaCorrecta = 1;
 				}
 			} while (respuestaCorrecta == 0);
 			if (repetir == 'N' || repetir == 'n') {
+				printf("RESPONDISTE NO SE CABAO LA RESERVA\n");
 				procesoReservaFinaslizado = 1;
 			}
 		}
@@ -90,22 +97,22 @@ int realizarCancelacion(int arr[FIL][BUT]) {
 					if (j == butaca) {
 						if (arr[i][j] == 1) {
 							printf("Cancelacion realizada EXITOSAMENTE");
-							arr[i][j] == 0;
-							procesoCancelacionFinaslizado == 1;
+							arr[i][j] = 0;
+							procesoCancelacionFinaslizado = 1;
 						}
 						else {
 							printf("IMPOSIBLE  CANCELAR la reserva, LA BUTACA YA ESTABA LIBRE");
 							int respuestaCorrecta = 0;
 							char repetir = ' ';
 							do {
-								printf("Desea volver a intentar realizar la cancelacion 'SI' o'NO' ?");
-								scanf_s("%c", &repetir, 2);
-								if (repetir == 'SI' || repetir == 'NO' || repetir == 'si' || repetir == 'no') {
+								printf("Desea volver a intentar realizar la cancelacion 'S' o'N' ?");
+								scanf_s("%c", &repetir,1);
+								if (repetir == 'S' || repetir == 'N' || repetir == 's' || repetir == 'n') {
 									respuestaCorrecta = 1;
 								}
 							} while (respuestaCorrecta == 0);
 							if (repetir == 'NO' || repetir == 'no')
-								procesoCancelacionFinaslizado == 1;
+								procesoCancelacionFinaslizado = 1;
 						}
 					}
 				}
@@ -192,18 +199,5 @@ e) Salir.
 	}
 	while (opcion!=4);
 	printf("Programa terminado\n");
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
