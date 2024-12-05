@@ -5,7 +5,7 @@
 
 #include<stdio.h>
 #include<Windows.h>
-#define TAM 100
+#define TAM 100000
 
 
 main() {
@@ -14,10 +14,11 @@ main() {
 	SetConsoleOutputCP(1252);
 
 	// 44)Escribir un programa que pida una frase y visualice una palabra en cada línea.
-
-	char frase[TAM];
+	char frase[TAM] = 'as';
+	/*
 	gets(frase);
-
+	*/
+	
 	for (int i = 0; frase[i]!= '\0'; i++) {
 		printf("%c", frase[i]);
 		if (frase[i] == ' ') {
