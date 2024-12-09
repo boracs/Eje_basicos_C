@@ -1,17 +1,27 @@
-# Archivos temporales de Vim
-*.swp
+# === Archivos de compilación EPLICADO BREVEMENTE PORQUE Y CADA UNO DE ELLOS ===
+# Archivos generados automáticamente por el compilador.
+*.obj    # Archivos de objetos intermedios, específicos de la máquina.
+*.exe    # Archivos ejecutables finales, se generan automáticamente al compilar.
+*.ilk    # Archivos de enlace incremental, creados durante el proceso de enlazado.
+*.pdb    # Archivos de depuración, contienen información de símbolos.
+*.log    # Archivos de registro, útiles solo localmente.
+*.tlog   # Archivos temporales de registro de compilación.
 
-# Archivos de compilación
-*.obj
-*.exe
-*.ilk
-*.pdb
-*.idb
-*.log
-*.tlog
+# === Archivos de configuración del IDE ===
+# Archivos creados por Visual Studio que son específicos del entorno local.
+*.VC.db  # Base de datos de referencias del proyecto, generada automáticamente.
+*.suo    # Configuraciones personales de usuario en Visual Studio.
+.vs/     # Carpeta completa de configuraciones y archivos temporales de Visual Studio.
 
-# Archivos de Visual Studio
-*.suo
-*.VC.db
-*.lastbuildstate
-.vs/
+# === Archivos temporales ===
+# Archivos generados por editores o el sistema operativo.
+*.swp    # Archivos temporales de Vim mientras editas un archivo.
+*.swo    # Archivos de respaldo creados por Vim.
+*.tmp    # Archivos temporales generales.
+.DS_Store # Metadatos creados por macOS para carpetas, innecesarios para el proyecto.
+Thumbs.db # Archivos de miniaturas generados por Windows.
+
+# === Otros archivos grandes o innecesarios ===
+# Archivos externos o dependencias compiladas que no forman parte del código fuente.
+# (Incluye bibliotecas, frameworks u otros archivos generados que no son código).
+
