@@ -1,0 +1,7 @@
+﻿  Ejemplo_funciones_str.c
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Caracteres\Ejemplo_funciones_str\Ejemplo_funciones_str\Ejemplo_funciones_str.c(64,9): warning C4477: 'printf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'size_t'
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Caracteres\Ejemplo_funciones_str\Ejemplo_funciones_str\Ejemplo_funciones_str.c(66,9): warning C4477: 'printf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'size_t'
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Caracteres\Ejemplo_funciones_str\Ejemplo_funciones_str\Ejemplo_funciones_str.c(68,9): warning C4477: 'printf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'size_t'
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Caracteres\Ejemplo_funciones_str\Ejemplo_funciones_str\Ejemplo_funciones_str.c(70,9): warning C4477: 'printf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'size_t'
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Caracteres\Ejemplo_funciones_str\Ejemplo_funciones_str\Ejemplo_funciones_str.c(18,31): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Ejemplo_funciones_str.vcxproj -> D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Caracteres\Ejemplo_funciones_str\x64\Debug\Ejemplo_funciones_str.exe
