@@ -1,2 +1,17 @@
-.vs/
+# Archivos temporales de Vim
 *.swp
+
+# Archivos de compilación
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.idb
+*.log
+*.tlog
+
+# Archivos de Visual Studio
+*.suo
+*.VC.db
+*.lastbuildstate
+.vs/
