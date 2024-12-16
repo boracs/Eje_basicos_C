@@ -19,33 +19,32 @@ main() {
 	*/
 
 
-	char numero[9] = "100";
+	char numero[10] = "100";
 	printf("Dame un numero en binario de 9 cifras:\n");
-	int correcto = 1;
-
-	 // valido que introduzca cero y unos
+	// hago que pregunte hasta que introduzca  todo cero y unos
+	int existeAlgunoDiferente = 1;
 	do {
 		gets(numero);
+		//inicializo la variable existeAlgunoDiferente = 1 aqui;
+		existeAlgunoDiferente = 0;
+		//miro que todos los numero sean 0 o 1 
 		for (int i = 0; i < strlen(numero); i++) {
-			if (numero[i] != 0) {
-				if (numero[i] != 1) {
-					correcto = 0;
+			if (numero[i] != '0') {
+				if (numero[i] != '1') {
+					existeAlgunoDiferente = 1;
 				}
 			}
 		}
-	} while (correcto == 0);
-	if (correcto == 1) {
-		printf("Numero correcto procedemos:\n");
-	}
+	} while (existeAlgunoDiferente == 1);
+	printf("Numero correcto procedemos...\n");
 
 
 
 	//obtengo el numero de un numero decimal:
-
 	int posicionamiento = 256;
 	int cont = 0;
 	int numeroConvertido = 0;
-
+	
 	while (posicionamiento != 0) {
 		if (numero[cont] == '1') {
 			numeroConvertido = numeroConvertido + posicionamiento;
@@ -53,11 +52,8 @@ main() {
 		else {
 		}
 		posicionamiento = posicionamiento / 2;
+		cont++;
 	}
-
-
 	printf("El numeor es %d", numeroConvertido);
-
-
 }
 
