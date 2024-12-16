@@ -1,0 +1,4 @@
+﻿  Tablas_ej18_facil.c
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Caracteres\Tablas_ej18_facil\Tablas_ej18_facil\Tablas_ej18_facil.c(27,3): warning C4013: 'gets' sin definir; se supone que extern devuelve como resultado int
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Caracteres\Tablas_ej18_facil\Tablas_ej18_facil\Tablas_ej18_facil.c(33,10): warning C4477: 'printf' : la cadena de formato '%20d' requiere un argumento de tipo 'int', pero el argumento variádico 2 tiene el tipo 'size_t'
+  Tablas_ej18_facil.vcxproj -> D:\BorjaBolado\Programacion C\Eje_basicos_C\Arrays Caracteres\Tablas_ej18_facil\Tablas_ej18_facil\x64\Debug\Tablas_ej18_facil.exe
