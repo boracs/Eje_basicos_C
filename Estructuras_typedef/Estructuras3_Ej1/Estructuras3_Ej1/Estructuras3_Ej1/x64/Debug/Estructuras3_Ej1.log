@@ -1,0 +1,8 @@
+﻿  Porgrama_principal_c.c
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Estructuras_typedef\Estructuras3_Ej1\Estructuras3_Ej1\Porgrama_principal_c.c(86,15): warning C4477: 'printf' : la cadena de formato '%c' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'char *'
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Estructuras_typedef\Estructuras3_Ej1\Estructuras3_Ej1\Porgrama_principal_c.c(86,15): warning C4313: 'printf': '%c' en la cadena de formato entra en conflicto con el argumento 1 de tipo 'char *'
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Estructuras_typedef\Estructuras3_Ej1\Estructuras3_Ej1\Porgrama_principal_c.c(89,8): warning C4013: 'gets' sin definir; se supone que extern devuelve como resultado int
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Estructuras_typedef\Estructuras3_Ej1\Estructuras3_Ej1\Porgrama_principal_c.c(93,18): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Estructuras_typedef\Estructuras3_Ej1\Estructuras3_Ej1\Porgrama_principal_c.c(117,15): warning C4477: 'printf' : la cadena de formato '%c' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'char *'
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Estructuras_typedef\Estructuras3_Ej1\Estructuras3_Ej1\Porgrama_principal_c.c(117,15): warning C4313: 'printf': '%c' en la cadena de formato entra en conflicto con el argumento 1 de tipo 'char *'
+  Estructuras3_Ej1.vcxproj -> D:\BorjaBolado\Programacion C\Eje_basicos_C\Estructuras_typedef\Estructuras3_Ej1\Estructuras3_Ej1\x64\Debug\Estructuras3_Ej1.exe
