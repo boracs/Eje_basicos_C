@@ -44,7 +44,7 @@ todos los vehículo*/
 
 
 
-struct type {
+typedef struct {
 	char Matricula[10];
 	char Modelo[20];
 	char Tipo[20];
@@ -53,7 +53,7 @@ struct type {
 
 #include<stdio.h>
 #include<Windows.h>
-
+#define TAM 20;
 
 
 //funciones que voy a usar 
@@ -61,17 +61,53 @@ struct type {
 
 
 
+void  mostrarMenu(int opc);
+void registrarViaje(int CR, VEHICULO v[]);
 
 
 
 
 main() {
-
 	SetConsoleCP(1252);
 	SetConsoleOutputCP(1252);
+	int ContReg = 0;
+	int opc = -1;
+	mostrarMenu(opc);
+}
+ 
 
-	int registros = 0;
+void registrarViaje(int CR, VEHICULO v[]) {
+	int numV = -1;
+	do {
+	printf("Dame el numero de vahiculo;\n");
+	scanf_s("%d", &numV);
+	} while (numV<0 || numV>CR);
+	for (int i = 0; i < CR; i++) {
+		if (numV == i) {
+			printf("Matricula: %s, Tipo: %s, Modelo: %s", v[i].Matricula, v[i].Tipo, v[i].Modelo);
+		}
+		printf("Dime la cantidad de km recorridos:");
+		float km;
+		scanf_s("%f", &km);
+		v[i].kms = v[i].kms + km;
+		printf("El km total ahora es:%d", v[i].kms);
+	}
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ void mostrarMenu(int opc) {
 	int opc;
 	do {
 		do {
@@ -89,7 +125,7 @@ main() {
 		else if (opc == 3) {
 			printf("opc3 ");
 		}
-		else if (opc ==4) {
+		else if (opc == 4) {
 			printf("opc4 ");
 		}
 		else if (opc == 5) {
@@ -98,11 +134,8 @@ main() {
 		else if (opc == 6) {
 			printf("opc6 ");
 		}
-
-
-	} while(opc != 0);
+	} while (opc != 0);
 
 	printf("Se acabo el programa gracias");
-
 }
 
