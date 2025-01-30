@@ -1,12 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Estructuras_typedef\\Estructuras5_Ej1_funciones\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A1B0FF-B575-44CD-A05A-16A1057BB278}|Estructuras5_Ej1_funciones\\Estructuras5_Ej1_funciones.vcxproj|D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Estructuras_typedef\\Estructuras5_Ej1_funciones\\Estructuras5_Ej1_funciones\\Porgrama_principal_c.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F2A1B0FF-B575-44CD-A05A-16A1057BB278}|Estructuras5_Ej1_funciones\\Estructuras5_Ej1_funciones.vcxproj|solutionrelative:Estructuras5_Ej1_funciones\\Porgrama_principal_c.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\Eje_basicos_C\\Estructuras_typedef\\Estructuras5_Ej1_funciones\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,24 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Porgrama_principal_c.c",
-              "DocumentMoniker": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Estructuras_typedef\\Estructuras5_Ej1_funciones\\Estructuras5_Ej1_funciones\\Porgrama_principal_c.c",
-              "RelativeDocumentMoniker": "Estructuras5_Ej1_funciones\\Porgrama_principal_c.c",
-              "ToolTip": "D:\\BorjaBolado\\Programacion C\\Eje_basicos_C\\Estructuras_typedef\\Estructuras5_Ej1_funciones\\Estructuras5_Ej1_funciones\\Porgrama_principal_c.c",
-              "RelativeToolTip": "Estructuras5_Ej1_funciones\\Porgrama_principal_c.c",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFEAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-01-27T08:10:52.988Z",
-              "EditorCaption": ""
             }
           ]
         }

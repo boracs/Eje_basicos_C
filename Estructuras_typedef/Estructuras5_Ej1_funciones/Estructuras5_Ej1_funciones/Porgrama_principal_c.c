@@ -1,89 +1,167 @@
 
 
 /*
-1) Se trata de programar una aplicación que nos sirva para llevar el control de los kilómetros
-realizados por los vehículos de una empresa de transporte. Dicha aplicación funcionará
+1) Se trata de programar una aplicaciï¿½n que nos sirva para llevar el control de los kilï¿½metros
+realizados por los vehï¿½culos de una empresa de transporte. Dicha aplicaciï¿½n funcionarï¿½
 como sigue:
-• Los datos de los 20 vehículos se almacenan en una tabla. Estos datos son los
+ï¿½ Los datos de los 5 vehï¿½culos se almacenan en una tabla. Estos datos son los
 siguientes:
-• Matrícula: La matrícula del vehículo
-• Modelo: String de 20 caracteres
-• Tipo: Misma descripción que el dato anterior.
-• Kms Acumulados: entero que irá acumulando el total de kilómetros
-realizados por el vehículo.
-En dicho fichero se irán contabilizando los kilómetros.
+ï¿½ Matrï¿½cula: La matrï¿½cula del vehï¿½culo
+ï¿½ Modelo: String de 20 caracteres
+ï¿½ Tipo: Misma descripciï¿½n que el dato anterior.
+ï¿½ Kms Acumulados: entero que irï¿½ acumulando el total de kilï¿½metros
+realizados por el vehï¿½culo.
+En dicho fichero se irï¿½n contabilizando los kilï¿½metros.
 Se Pide:
-a) Programar el programa principal para que muestre el siguiente menú
+a) Programar el programa principal para que muestre el siguiente menï¿½
 0. Salir
 1. Inicializar.
-2. Alta vehículo
+2. Alta vehï¿½culo
 3. Registrar viaje.
-4. Baja vehículo.
-5. Consultar vehículo.
-6. Listar vehículo.
-Declarar también las estructuras, tipos y variables locales que sean necesarias.
+4. Baja vehï¿½culo.
+5. Consultar vehï¿½culo.
+6. Listar vehï¿½culo.
+Declarar tambiï¿½n las estructuras, tipos y variables locales que sean necesarias.
 b) Pone a 0 el contador de registros introducidos.
-c) Programar la función RegistrarViaje para que:
-i) Pida un número de vehículo (índice de la tabla), entre 0 y el número de vehículos
+c) Programar la funciï¿½n RegistrarViaje para que:
+i) Pida un nï¿½mero de vehï¿½culo (ï¿½ndice de la tabla), entre 0 y el nï¿½mero de vehï¿½culos
 introducidos.
-ii) Acceda a la posición de la tabla correspondiente al vehículo introducido y muestre
-la matrícula, el tipo y el modelo del mismo.
-iii) Pida el número de Kms. realizados por el vehículo introducido y acumule en la
-posición correspondiente el número de Kilómetros.
-d) Programar la función AltaVehículo para que pida los datos de un vehículo y lo dé de
-alta en la primera posición libre (es decir, la indicada por cont) inicializando a 0 el
-número de kms. La primera posición libre coincide con el contador de los introducidos
-hasta el momento. Tras insertar sumará 1 a dicho contador.
-e) Programar la función BajaVehículo para que pida el número (posición) del un vehículo
-y lo dé de baja, moviendo todos los registros siguientes hacia atrás y restando 1 al
-contador de vehículos introducidos.
-f) Programar la función ConsultaVehículo para que pida una matrícula de vehículo y
+ii) Acceda a la posiciï¿½n de la tabla correspondiente al vehï¿½culo introducido y muestre
+la matrï¿½cula, el tipo y el modelo del mismo.
+iii) Pida el nï¿½mero de Kms. realizados por el vehï¿½culo introducido y acumule en la
+posiciï¿½n correspondiente el nï¿½mero de Kilï¿½metros.
+d) Programar la funciï¿½n AltaVehï¿½culo para que pida los datos de un vehï¿½culo y lo dï¿½ de
+alta en la primera posiciï¿½n libre (es decir, la indicada por cont) inicializando a 0 el
+nï¿½mero de kms. La primera posiciï¿½n libre coincide con el contador de los introducidos
+hasta el momento. Tras insertar sumarï¿½ 1 a dicho contador.
+e) Programar la funciï¿½n BajaVehï¿½culo para que pida el nï¿½mero (posiciï¿½n) del un vehï¿½culo
+y lo dï¿½ de baja, moviendo todos los registros siguientes hacia atrï¿½s y restando 1 al
+contador de vehï¿½culos introducidos.
+f) Programar la funciï¿½n ConsultaVehï¿½culo para que pida una matrï¿½cula de vehï¿½culo y
 muestre sus datos.
-g) Programar la función ListarVehículos para que muestre un listado con los datos de
-todos los vehículo*/
+g) Programar la funciï¿½n ListarVehï¿½culos para que muestre un listado con los datos de
+todos los vehï¿½culo*/
 
-
-
-typedef struct {
+typedef struct
+{
 	char Matricula[10];
 	char Modelo[20];
 	char Tipo[20];
 	float kms;
-}VEHICULO;
+} VEHICULO;
 
-#include<stdio.h>
-#include<Windows.h>
-#define TAM 20;
+#include <stdio.h>
+#include <Windows.h>
+#define TAM 5;
 
-
-//funciones que voy a usar 
-
-
-
-
-void  mostrarMenu(int opc);
+// funciones que voy a usar
+void mostrarMenu(int opc, int CR, VEHICULO v[]);
 void registrarViaje(int CR, VEHICULO v[]);
+void altaVehiculo(int CR, VEHICULO v[]);
+void bajaVehiculo(int CR, VEHICULO v[]);
+void consultaVehiculo(int CR, VEHICULO v[]);
+void InfoVehiculos(int CR, VEHICULO v[]);
+void inicializarV(int CR, VEHICULO v[]);
 
+main()
+{
 
-
-
-main() {
 	SetConsoleCP(1252);
 	SetConsoleOutputCP(1252);
 	int ContReg = 0;
+	VEHICULO v1[5];
 	int opc = -1;
-	mostrarMenu(opc);
+	mostrarMenu(opc, ContReg, v1);
 }
- 
 
-void registrarViaje(int CR, VEHICULO v[]) {
+void mostrarMenu(int opc, int CR, VEHICULO v[])
+{
+	int inicio = 0;
+	do
+	{
+		do
+		{
+			printf("Dame una opcion del 0 al 6\n");
+			scanf_s("%d", &opc);
+		} while (opc < 0 || opc > 6);
+
+		if (opc == 1)
+		{ // inicializar
+			inicializarV(CR, v);
+			inicio = 1;
+		}
+		else if (opc == 2)
+		{ // alta vehiculo
+			if (inicio == 0)
+			{
+				printf("Tienes que inicializar los vehiculos primero");
+			}
+			else
+			{
+				altaVehiculo(CR, v);
+			}
+		}
+		else if (opc == 3)
+		{
+			if (inicio == 0)
+			{
+				printf("Tienes que inicializar los vehiculos primero");
+			}
+			else
+			{
+				registrarViaje(CR, v);
+			}
+		}
+		else if (opc == 4)
+		{
+			if (inicio == 0)
+			{
+				printf("Tienes que inicializar los vehiculos primero");
+			}
+			else
+			{
+				bajaVehiculo(CR, v);
+			}
+		}
+		else if (opc == 5)
+		{
+			if(inicio == 0)
+			{
+				printf("Tienes que inicializar los vehiculos primero");
+			}
+			else
+			{
+				consultaVehiculo(CR, v);
+			}
+		}
+		else if (opc == 6)
+		{
+			if (inicio == 0)
+			{
+				printf("Aun no ahy veiculso inicializa todo primero");
+			}
+			else
+			{
+				InfoVehiculos(CR, v);
+			}
+		}
+	} while (opc != 0);
+
+	printf("Se acabo el programa gracias");
+}
+
+void registrarViaje(int CR, VEHICULO v[])
+{
 	int numV = -1;
-	do {
-	printf("Dame el numero de vahiculo;\n");
-	scanf_s("%d", &numV);
-	} while (numV<0 || numV>CR);
-	for (int i = 0; i < CR; i++) {
-		if (numV == i) {
+	do
+	{
+		printf("Dame el numero de vahiculo;\n");
+		scanf_s("%d", &numV);
+	} while (numV < 0 || numV > CR);
+	for (int i = 0; i < CR; i++)
+	{
+		if (numV == i)
+		{
 			printf("Matricula: %s, Tipo: %s, Modelo: %s", v[i].Matricula, v[i].Tipo, v[i].Modelo);
 		}
 		printf("Dime la cantidad de km recorridos:");
@@ -94,48 +172,75 @@ void registrarViaje(int CR, VEHICULO v[]) {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
- void mostrarMenu(int opc) {
-	int opc;
-	do {
-		do {
-			printf("Dame una opcion del 0 al 6\n");
-			scanf_s("%d", &opc);
-		} while (opc < 0 || opc>6);
-
-
-		if (opc == 1) {
-			printf("opc1 ");
-		}
-		else if (opc == 2) {
-			printf("opc2 ");
-		}
-		else if (opc == 3) {
-			printf("opc3 ");
-		}
-		else if (opc == 4) {
-			printf("opc4 ");
-		}
-		else if (opc == 5) {
-			printf("opc5 ");
-		}
-		else if (opc == 6) {
-			printf("opc6 ");
-		}
-	} while (opc != 0);
-
-	printf("Se acabo el programa gracias");
+void altaVehiculo(int CR, VEHICULO v[])
+{
+	printf("Dame la matricula del vehiculo:");
+	scanf_s("%s", &v[CR].Matricula);
+	printf("Dame el modelo del vehiculo:");
+	scanf_s("%s", &v[CR].Modelo);
+	printf("Dame el tipo del vehiculo:");
+	scanf_s("%s", &v[CR].Tipo);
+	v[CR].kms = 0;
+	CR++;
+	printf("El vehiculo se ha dado de alta correctamente");
 }
 
+void bajaVehiculo(int CR, VEHICULO v[])
+{
+	int numV = -1;
+	do
+	{
+		printf("Damel el numero del vehiculo");
+		scanf_s("%d", &numV);
+	} while (numV < 0 || numV > CR);
+	for (int i = 0; i < CR; i++)
+	{
+		if (numV == i)
+		{
+			for (int j = i; j < CR; j++)
+			{
+				v[j] = v[j + 1];
+			}
+		}
+	}
+	CR--;
+}
+
+void consultaVehiculo(int CR, VEHICULO v[])
+{
+	char matricula[10];
+	printf("Dame la matricula del vehiculo que quieres consultar:");
+	scanf_s("%s", &matricula);
+	for (int i = 0; i < CR; i++)
+	{
+		if (strcmp(v[i].Matricula, matricula) == 0)
+		{
+			printf("Matricula: %s, Tipo: %s, Modelo: %s, Kms: %f", v[i].Matricula, v[i].Tipo, v[i].Modelo, v[i].kms);
+		}
+	}
+}
+
+void InfoVehiculos(int CR, VEHICULO v[])
+{
+	for (int i = 0; i < CR; i++)
+	{
+		printf("Matricula: %s, Tipo: %s, Modelo: %s, Kms: %f", v[i].Matricula, v[i].Tipo, v[i].Modelo, v[i].kms);
+	}
+}
+
+void inicializarV(int CR, VEHICULO v[])
+{
+	printf("cuantos vehiculos quieres meter?");
+	int numV = 0;
+	scanf_s("%d", &numV);
+	for (int i = 0; i < numV; i++)
+	{
+		printf("Dame la matricula del vehiculo:");
+		scanf_s("%s", &v[i].Matricula);
+		printf("Dame el modelo del vehiculo:");
+		scanf_s("%s", &v[i].Modelo);
+		printf("Dame el tipo del vehiculo:");
+		scanf_s("%s", &v[i].Tipo);
+		v[i].kms = 0;
+	}
+}
