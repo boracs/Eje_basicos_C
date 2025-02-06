@@ -1,0 +1,4 @@
+﻿  Porgrama_principal_c.c
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Estructuras_typedef\Estructuras6_palindromo\Estructuras6_palindromo\Porgrama_principal_c.c(19,2): warning C4013: 'gets' sin definir; se supone que extern devuelve como resultado int
+D:\BorjaBolado\Programacion C\Eje_basicos_C\Estructuras_typedef\Estructuras6_palindromo\Estructuras6_palindromo\Porgrama_principal_c.c(21,24): warning C4267: 'función': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Estructuras6_palindromo.vcxproj -> D:\BorjaBolado\Programacion C\Eje_basicos_C\Estructuras_typedef\Estructuras6_palindromo\Estructuras6_palindromo\x64\Debug\Estructuras6_palindromo.exe

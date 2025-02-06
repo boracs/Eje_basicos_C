@@ -1,0 +1,6 @@
+﻿  Estructuras6_ej_2.c
+C:\Users\ASUS\Desktop\PROGRAMACION C++\Eje_basicos_C\Estructuras_typedef\Estructuras6_ej_2\Estructuras6_ej_2\Estructuras6_ej_2.c(49,3): warning C4013: 'gets' sin definir; se supone que extern devuelve como resultado int
+C:\Users\ASUS\Desktop\PROGRAMACION C++\Eje_basicos_C\Estructuras_typedef\Estructuras6_ej_2\Estructuras6_ej_2\Estructuras6_ej_2.c(66,31): warning C4047: 'función': 'const char *' es distinto en los niveles de direccionamiento indirecto de 'int'
+C:\Users\ASUS\Desktop\PROGRAMACION C++\Eje_basicos_C\Estructuras_typedef\Estructuras6_ej_2\Estructuras6_ej_2\Estructuras6_ej_2.c(66,31): warning C4024: 'strcmp': tipos distintos para el parámetro formal y el parámetro real 2
+C:\Users\ASUS\Desktop\PROGRAMACION C++\Eje_basicos_C\Estructuras_typedef\Estructuras6_ej_2\Estructuras6_ej_2\Estructuras6_ej_2.c(58,6): warning C4047: 'inicializando': 'int' es distinto en los niveles de direccionamiento indirecto de 'char [1]'
+  Estructuras6_ej_2.vcxproj -> C:\Users\ASUS\Desktop\PROGRAMACION C++\Eje_basicos_C\Estructuras_typedef\Estructuras6_ej_2\x64\Debug\Estructuras6_ej_2.exe

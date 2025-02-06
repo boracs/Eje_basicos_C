@@ -52,7 +52,7 @@ typedef struct
 
 #include <stdio.h>
 #include <Windows.h>
-#define TAM 5;
+#define TAM 5
 
 // funciones que voy a usar
 void mostrarMenu(int opc, int CR, VEHICULO v[]);
